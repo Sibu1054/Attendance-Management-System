@@ -132,7 +132,7 @@ class AttendanceSystem:
         list_scroll.pack(side='right', fill='y')
         
         # Refresh list button
-        refresh_list_btn = tk.Button(ref_frame, text="🔄 Refresh", command=self.load_employee_list, 
+        refresh_list_btn = tk.Button(ref_frame, text="Refresh", command=self.load_employee_list, 
                                    bg='#95a5a6', fg='white', relief='flat')
         refresh_list_btn.pack(pady=8)
         
@@ -165,7 +165,7 @@ class AttendanceSystem:
         vert_scroll.grid(row=0, column=1, sticky='ns')
         horiz_scroll.grid(row=1, column=0, sticky='ew')
         
-        refresh_data_btn = tk.Button(view_container, text="🔄 Refresh Data", command=self.load_attendance_data,
+        refresh_data_btn = tk.Button(view_container, text="Refresh Data", command=self.load_attendance_data,
                                    bg='#e67e22', fg='white', font=("Arial", 10, "bold"), relief='flat')
         refresh_data_btn.grid(row=2, column=0, pady=15)
         
