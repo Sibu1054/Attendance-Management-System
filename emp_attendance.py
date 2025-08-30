@@ -4,7 +4,7 @@ from datetime import date
 db = conn.connect(
     host="localhost",
     user="root",
-    password="P@ssword:22",
+    password="Here type your database password",
     database="attendance_db"
 )
 cursor = db.cursor()
