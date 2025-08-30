@@ -1,0 +1,8 @@
+id,emp_id,date,status
+2,1,2025-08-30,Absent
+3,2,2025-08-30,Present
+4,2,2025-08-30,Absent
+5,3,2025-08-30,Present
+6,3,2025-08-30,Present
+7,3,2025-08-30,Present
+8,5,2025-08-30,Absent
